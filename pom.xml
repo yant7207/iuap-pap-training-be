@@ -27,16 +27,19 @@
         <dependency>
             <groupId>com.yonyou.iuap.pap</groupId>
             <artifactId>iuap-pap-starter</artifactId>
+            <version>${pap_base_bom.version}</version>
         </dependency>
         <dependency>
             <groupId>com.yonyou.iuap.middleware</groupId>
             <artifactId>starter</artifactId>
+            <version>3.5.2-RELEASE</version>
             <scope>provided</scope>
         </dependency>
         
         <dependency>
 		    <groupId>com.yonyou.iuap.baseservice</groupId>
 		    <artifactId>iuap-pap-baseservice-statistics</artifactId>
+            <version>${pap_base_bom.version}</version>
 		</dependency>
 		
 		<dependency>
@@ -66,10 +69,12 @@
         <dependency>
             <groupId>io.springfox</groupId>
             <artifactId>springfox-swagger2</artifactId>
+            <version>2.9.2</version>
         </dependency>
         <dependency>
             <groupId>io.springfox</groupId>
             <artifactId>springfox-swagger-ui</artifactId>
+            <version>2.9.2</version>
         </dependency>
     </dependencies>
     <build>
